@@ -17,3 +17,5 @@ or
       find("input.btn.full.loginBtn").click
     end
 
+# fill in option with the first choice
+find('select[name="comboboxInstallments"]').find(:xpath, 'option[1]').select_option
