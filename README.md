@@ -19,3 +19,6 @@ or
 
 # fill in option with the first choice
 find('select[name="comboboxInstallments"]').find(:xpath, 'option[1]').select_option
+
+# get all options on a select
+find('#creditCardPaymentCardTypeSelect').all('option').collect(&:text)
