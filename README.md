@@ -26,3 +26,6 @@ find('#creditCardPaymentCardTypeSelect').all('option').collect(&:text)
 within '#creditCardPaymentForm' do
   find("option[value='UT']").click
 end
+
+# find the child element
+find('fieldset.cardNumber input')
