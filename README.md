@@ -31,6 +31,7 @@ end
 find('fieldset.cardNumber input')
 
 # Understanding ruby yield, passing parameter to method
+https://www.codecademy.com/forum_questions/52bc1930631fe91466001658
 ```
   def parameters(val)
     puts 'Here, have two random numbers.'
