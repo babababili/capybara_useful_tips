@@ -29,3 +29,17 @@ end
 
 # find the child element
 find('fieldset.cardNumber input')
+
+# Understanding ruby yield, passing parameter to method
+  def parameters(val)
+    puts 'Here, have two random numbers.'
+    yield val if block_given?
+    puts 'Now say thank you!'
+  end
+  it 'sdfdsfds' do
+    parameters(rand(10)) { |v| myval(v) }
+  end
+
+  def myval(v)
+    puts "#{v}" #puts "#{v}, #{x}, #{y}"
+  end
