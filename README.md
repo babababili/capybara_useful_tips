@@ -32,7 +32,7 @@ find('fieldset.cardNumber input')
 
 # fill the input /select box by label
 
-    fill_in('Domain', with: 'singapore2.dollar.automation.test.catalog.instructure.com')
+    fill_in('Domain', with: 'www.google.com')
     select 'SGD', from: 'Currency'
 
 
