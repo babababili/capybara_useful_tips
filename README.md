@@ -35,7 +35,8 @@ find('fieldset.cardNumber input')
     fill_in('Domain', with: 'www.google.com')
     select 'SGD', from: 'Currency'
 
-
+# missing api(v.useful)
+http://makandracards.com/makandra/1422-capybara-the-missing-api
 
 # Understanding ruby yield, passing parameter to method
 https://www.codecademy.com/forum_questions/52bc1930631fe91466001658
