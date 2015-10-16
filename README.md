@@ -54,3 +54,7 @@ https://www.codecademy.com/forum_questions/52bc1930631fe91466001658
     puts "#{v}" #puts "#{v}, #{x}, #{y}"
   end
 ```
+
+
+Check the parent element and find options
+```find_field('Catalog').find(:xpath, '..').find('option[value="10"]')```
